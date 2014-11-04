@@ -20,13 +20,6 @@
     <!-- Custom styles for this template -->
     <link href="css/soon.css" rel="stylesheet">
 
-    <!-- prettyPhoto -->
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/prettyPhoto.css" rel="stylesheet">
-    <link href="css/animate.min.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
-    <link href="css/responsive.css" rel="stylesheet">
-
     <!-- Custom Fonts -->
     <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <!--
@@ -44,13 +37,6 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <!--
-    <link rel="shortcut icon" href="images/ico/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
-    -->
 
 </head>
 
@@ -133,7 +119,7 @@
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h3 class="service-heading">北京</h3>
+                    <h4 class="service-heading">北京</h4>
                     <p class="text-muted">你生活在别人的眼神里，就迷失在自己的心路上.</p>
                 </div>
                 <div class="col-md-4">
@@ -141,7 +127,7 @@
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h3 class="service-heading">杭州</h3>
+                    <h4 class="service-heading">杭州</h4>
                     <p class="text-muted">没有恰到好处的旅程，只有恰如其分的心情.</p>
                 </div>
                 <div class="col-md-4">
@@ -149,138 +135,110 @@
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h3 class="service-heading">武汉</h3>
+                    <h4 class="service-heading">武汉</h4>
                     <p class="text-muted">很多语言都是假的，只有一起经历过的才是真的.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!--
+    <!-- Portfolio Grid Section -->
     <section id="portfolio" class="bg-light-gray">
-    -->
-    <section id="portfolio">
         <div class="container">
-            <div class="center">
-               <h2>掠影</h2>
-               <p class="lead">走过的脚步匆匆，留下的背影朦胧.</p>
-            </div>
-
-
-            <ul class="portfolio-filter text-center">
-                <li><a class="btn btn-default active" href="#" data-filter="*">全部</a></li>
-                <li><a class="btn btn-default" href="#" data-filter=".bootstrap">北京</a></li>
-                <li><a class="btn btn-default" href="#" data-filter=".html">上海</a></li>
-                <li><a class="btn btn-default" href="#" data-filter=".wordpress">武汉</a></li>
-            </ul><!--/#portfolio-filter-->
-
             <div class="row">
-                <div class="portfolio-items">
-                    <div class="portfolio-itemA apps col-xs-12 col-sm-4 col-md-3">
-                        <div class="recent-work-wrap">
-                            <img class="img-responsive" src="img/portfolior/recent/item1.png" alt="">
-                            <div class="overlay">
-                                <div class="recent-work-inner">
-                                    <h4><a href="#">Business theme</a></h4>
-                                    <p>There are many variations of passages of Lorem Ipsum</p>
-                                    <a class="preview" href="img/portfolior/full/item1.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
-                                </div>
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">掠影</h2>
+                    <h3 class="section-subheading text-muted">走过的脚步匆匆，留下的背影朦胧.</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                    </div><!--/.portfolio-itemA-->
-
-                    <div class="portfolio-itemA joomla bootstrap col-xs-12 col-sm-4 col-md-3">
-                        <div class="recent-work-wrap">
-                            <img class="img-responsive" src="img/portfolior/recent/item2.png" alt="">
-                            <div class="overlay">
-                                <div class="recent-work-inner">
-                                    <h4><a href="#">Business theme</a></h4>
-                                    <p>There are many variations of passages of Lorem Ipsum</p>
-                                    <a class="preview" href="img/portfolior/full/item2.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
-                                </div>
+                        <img src="img/portfolio/roundicons.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>玉渊潭</h4>
+                        <p class="text-muted">晚秋很美</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                    </div><!--/.portfolio-itemA-->
-                    <div class="portfolio-itemA bootstrap wordpress col-xs-12 col-sm-4 col-md-3">
-                        <div class="recent-work-wrap">
-                            <img class="img-responsive" src="img/portfolior/recent/item3.png" alt="">
-                            <div class="overlay">
-                                <div class="recent-work-inner">
-                                    <h4><a href="#">Business theme</a></h4>
-                                    <p>There are many variations of passages of Lorem Ipsum</p>
-                                    <a class="preview" href="img/portfolior/full/item3.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
-                                </div>
+                        <img src="img/portfolio/startup-framework.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>紫竹苑</h4>
+                        <p class="text-muted">荷花啊，好多</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                    </div><!--/.portfolio-itemA-->
-
-                    <div class="portfolio-itemA joomla wordpress apps col-xs-12 col-sm-4 col-md-3">
-                        <div class="recent-work-wrap">
-                            <img class="img-responsive" src="img/portfolior/recent/item4.png" alt="">
-                            <div class="overlay">
-                                <div class="recent-work-inner">
-                                    <h4><a href="#">Business theme</a></h4>
-                                    <p>There are many variations of passages of Lorem Ipsum</p>
-                                    <a class="preview" href="img/portfolior/full/item4.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
-                                </div>
+                        <img src="img/portfolio/treehouse.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>公园</h4>
+                        <p class="text-muted">记得盛开</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                    </div><!--/.portfolio-itemA-->
-
-                    <div class="portfolio-itemA joomla html bootstrap col-xs-12 col-sm-4 col-md-3">
-                        <div class="recent-work-wrap">
-                            <img class="img-responsive" src="img/portfolior/recent/item5.png" alt="">
-                            <div class="overlay">
-                                <div class="recent-work-inner">
-                                    <h4><a href="#">Business theme</a></h4>
-                                    <p>There are many variations of passages of Lorem Ipsum</p>
-                                    <a class="preview" href="img/portfolior/full/item5.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
-                                </div>
+                        <img src="img/portfolio/golden.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>学校</h4>
+                        <p class="text-muted">转过身，一片青春</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                    </div><!--/.portfolio-itemA-->
-                    <div class="portfolio-itemA wordpress html apps col-xs-12 col-sm-4 col-md-3">
-                        <div class="recent-work-wrap">
-                            <img class="img-responsive" src="img/portfolior/recent/item6.png" alt="">
-                            <div class="overlay">
-                                <div class="recent-work-inner">
-                                    <h4><a href="#">Business theme</a></h4>
-                                    <p>There are many variations of passages of Lorem Ipsum</p>
-                                    <a class="preview" href="img/portfolior/full/item6.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
-                                </div>
+                        <img src="img/portfolio/escape.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>楼下</h4>
+                        <p class="text-muted">总有些不变的</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                    </div><!--/.portfolio-itemA-->
-
-                    <div class="portfolio-itemA wordpress html col-xs-12 col-sm-4 col-md-3">
-                        <div class="recent-work-wrap">
-                            <img class="img-responsive" src="img/portfolior/recent/item7.png" alt="">
-                            <div class="overlay">
-                                <div class="recent-work-inner">
-                                    <h4><a href="#">Business theme</a></h4>
-                                    <p>There are many variations of passages of Lorem Ipsum</p>
-                                    <a class="preview" href="img/portfolior/full/item7.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div><!--/.portfolio-itemA-->
-
-                    <div class="portfolio-itemA wordpress html bootstrap col-xs-12 col-sm-4 col-md-3">
-                        <div class="recent-work-wrap">
-                            <img class="img-responsive" src="img/portfolior/recent/item8.png" alt="">
-                            <div class="overlay">
-                                <div class="recent-work-inner">
-                                    <h4><a href="#">Business theme</a></h4>
-                                    <p>There are many variations of passages of Lorem Ipsum</p>
-                                    <a class="preview" href="img/portfolior/full/item8.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div><!--/.portfolio-itemA-->
+                        <img src="img/portfolio/dreams.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>地铁</h4>
+                        <p class="text-muted">终于还是涨价了</p>
+                    </div>
                 </div>
             </div>
         </div>
-    </section><!--/#portfolio-item-->
+    </section>
 
     <!-- About Section -->
     <section id="about">
@@ -728,16 +686,6 @@
     <script src="js/soon/plugins.js"></script>
     <script src="js/soon/jquery.themepunch.revolution.min.js"></script>
     <script src="js/soon/custom.js"></script>
-
-    <!-- prettyPhoto -->
-    <!--
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    -->
-    <script src="js/jquery.prettyPhoto.js"></script>
-    <script src="js/main.js"></script>
-    <script src="js/jquery.isotope.min.js"></script>
-    <script src="js/wow.min.js"></script>
 
 </body>
 </html>
